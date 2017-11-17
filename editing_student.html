@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title> Форма редагування студента </title>
+	<meta name="description"
+	value="Система обліку працівників ЛЕМП" />
+	<script   src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+
+	    <!--Include style--->
+	    <!-- Latest compiled and minified CSS -->
+
+
+	    <link rel="stylesheet"     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	    <!-- Optional theme -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+	    <!-- Latest compiled and minified JavaScript -->
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	    <style type="text/css"> .col-xs-12, .col-xs-8, .col-xs-4 {border: 0px solid brown;}</style>
+
+	    <!--Include My_Style-->
+	    <link rel="stylesheet" href="/mnt/sda4/work/Code/static/main.css">
+	  </head>
+	  <body>
+	  	
+	  	<div class="col-xs-12">
+	  		<p> <B> <h2> Форма редагування студента </h2> </B> </p>
+	  	</div>
+	  	<div class="col-xs-8">
+	  		<table>
+	  			<tbody>
+	  				<tr>
+	  					<th valign="middle" width="35%">Ім'я:*</th>
+	  					<th valign="middle" class="table"><p><input type="text" name="first_name"></p></th>
+	  				</tr>
+	  				<tr>
+	  					<th>По-батькові:</th>
+	  					<th><p><input type="text" name="surname"></p></th>
+	  				</tr>
+	  				<tr>
+	  					<th>Прізвище:*</th>
+	  					<th><p><input type="text" name="surname"></p></th>
+	  				</tr>
+	  				<tr>
+	  					<th>Номер білету:* </th>
+	  					<th><p><input type="text" name="surname"></p></th>
+	  				</tr>
+	  				<tr>
+	  					<th>Дата народження:</th>
+	  					<th><p><input type="text" name="birth_date"></p></th>
+	  				</tr>
+	  				<tr>
+	  					<th>Фото:</th> 
+	  					<th>Наразі: <a href="img/3nNa5LUHvXM.jpg">img/3nNa5LUHvXM.jpg</a>
+	  						<label valign="middle" class="form-check-label">
+	  							<input type="checkbox" class="form-check-input">
+	  						</label>
+	  					</th>
+	  				</tr>
+	  				<tr>
+	  					<th><th>Очистити</th></th>
+	  				</tr>
+	  				<tr>
+	  					<th><th>
+	  						<form>
+	  							<div class="form-group">
+	  								<label for="exampleFormControlFile1">Змінити: <input type="file" class="form-control-file" id="exampleFormControlFile1">
+	  								</label>
+	  							</div>
+	  						</form>
+	  					</th></th>
+	  				</tr>
+	  				<tr>
+	  					<th>Група:*</th>
+	  					<th align="left" valign="middle">
+	  						<div>
+	  							<select align="left">
+	  								<option value=""> ЕС-41</option>
+	  								<option value=""> ЕС-31</option>
+	  								<option value=""> ЕС-12</option>
+	  								<option value=""> ЕС-11</option>
+	  								<option value=""> ЕС-22</option>
+	  								<option value=""> ЕС-21</option>
+	  								<option value=""> ЕС-32 </option>
+	  								<option value=""> ЕСМ-11 </option>
+	  							</select>
+	  							<h1></h1>
+	  						</div>
+	  					</th>
+	  				</tr>
+	  				<tr>
+	  					<div>
+	  						<th valign="top">Додаткові нотатки:</th>
+	  						<th><textarea class="panel panel-default" id="comment-field" name="commetn" rows="5" placeholder="Текст"></textarea></th>
+	  					</div>
+	  				</tr>
+	  				<tr>
+	  					<th><th>
+	  						<div class="row">
+	  							<div class="col-xs-12">
+	  								<ul class="nav nav-tabs" role="tablist">
+	  									<li role="presentation" class="active"><a href="#">Зберегти</a></li>
+	  									<li role="presentation"><a href="#">Скасувати</a></li>
+	  								</ul>
+	  							</div>
+	  						</th></th>
+	  					</tr>
+	  				</tbody>
+	  			</table>
+	  		</div>
+	  	</body>
+	  	</html>
